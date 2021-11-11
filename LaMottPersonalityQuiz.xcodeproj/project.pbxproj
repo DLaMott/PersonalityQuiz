@@ -1,0 +1,356 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		AA9F84D127278A3600DD3D1A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA9F84D027278A3600DD3D1A /* AppDelegate.swift */; };
+		AA9F84D327278A3600DD3D1A /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA9F84D227278A3600DD3D1A /* SceneDelegate.swift */; };
+		AA9F84D527278A3600DD3D1A /* IntroductionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA9F84D427278A3600DD3D1A /* IntroductionViewController.swift */; };
+		AA9F84D827278A3600DD3D1A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AA9F84D627278A3600DD3D1A /* Main.storyboard */; };
+		AA9F84DA27278A4100DD3D1A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AA9F84D927278A4100DD3D1A /* Assets.xcassets */; };
+		AA9F84DD27278A4100DD3D1A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AA9F84DB27278A4100DD3D1A /* LaunchScreen.storyboard */; };
+		AA9F84E6272794B300DD3D1A /* QuestionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA9F84E5272794B300DD3D1A /* QuestionViewController.swift */; };
+		AA9F84E9272794C700DD3D1A /* ResultsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA9F84E8272794C700DD3D1A /* ResultsViewController.swift */; };
+		AA9F84ED27279B4100DD3D1A /* Question.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA9F84EC27279B4100DD3D1A /* Question.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		AA9F84CD27278A3600DD3D1A /* LaMottPersonalityQuiz.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LaMottPersonalityQuiz.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		AA9F84D027278A3600DD3D1A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		AA9F84D227278A3600DD3D1A /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		AA9F84D427278A3600DD3D1A /* IntroductionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IntroductionViewController.swift; sourceTree = "<group>"; };
+		AA9F84D727278A3600DD3D1A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		AA9F84D927278A4100DD3D1A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		AA9F84DC27278A4100DD3D1A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		AA9F84DE27278A4100DD3D1A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AA9F84E5272794B300DD3D1A /* QuestionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuestionViewController.swift; sourceTree = "<group>"; };
+		AA9F84E8272794C700DD3D1A /* ResultsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResultsViewController.swift; sourceTree = "<group>"; };
+		AA9F84EC27279B4100DD3D1A /* Question.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Question.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		AA9F84CA27278A3600DD3D1A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		AA9F84C427278A3600DD3D1A = {
+			isa = PBXGroup;
+			children = (
+				AA9F84CF27278A3600DD3D1A /* LaMottPersonalityQuiz */,
+				AA9F84CE27278A3600DD3D1A /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		AA9F84CE27278A3600DD3D1A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				AA9F84CD27278A3600DD3D1A /* LaMottPersonalityQuiz.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		AA9F84CF27278A3600DD3D1A /* LaMottPersonalityQuiz */ = {
+			isa = PBXGroup;
+			children = (
+				AA9F84D027278A3600DD3D1A /* AppDelegate.swift */,
+				AA9F84EC27279B4100DD3D1A /* Question.swift */,
+				AA9F84D227278A3600DD3D1A /* SceneDelegate.swift */,
+				AA9F84D427278A3600DD3D1A /* IntroductionViewController.swift */,
+				AA9F84E5272794B300DD3D1A /* QuestionViewController.swift */,
+				AA9F84E8272794C700DD3D1A /* ResultsViewController.swift */,
+				AA9F84D627278A3600DD3D1A /* Main.storyboard */,
+				AA9F84D927278A4100DD3D1A /* Assets.xcassets */,
+				AA9F84DB27278A4100DD3D1A /* LaunchScreen.storyboard */,
+				AA9F84DE27278A4100DD3D1A /* Info.plist */,
+			);
+			path = LaMottPersonalityQuiz;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		AA9F84CC27278A3600DD3D1A /* LaMottPersonalityQuiz */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AA9F84E127278A4100DD3D1A /* Build configuration list for PBXNativeTarget "LaMottPersonalityQuiz" */;
+			buildPhases = (
+				AA9F84C927278A3600DD3D1A /* Sources */,
+				AA9F84CA27278A3600DD3D1A /* Frameworks */,
+				AA9F84CB27278A3600DD3D1A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = LaMottPersonalityQuiz;
+			productName = LaMottPersonalityQuiz;
+			productReference = AA9F84CD27278A3600DD3D1A /* LaMottPersonalityQuiz.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		AA9F84C527278A3600DD3D1A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1240;
+				LastUpgradeCheck = 1240;
+				TargetAttributes = {
+					AA9F84CC27278A3600DD3D1A = {
+						CreatedOnToolsVersion = 12.4;
+					};
+				};
+			};
+			buildConfigurationList = AA9F84C827278A3600DD3D1A /* Build configuration list for PBXProject "LaMottPersonalityQuiz" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = AA9F84C427278A3600DD3D1A;
+			productRefGroup = AA9F84CE27278A3600DD3D1A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				AA9F84CC27278A3600DD3D1A /* LaMottPersonalityQuiz */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		AA9F84CB27278A3600DD3D1A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AA9F84DD27278A4100DD3D1A /* LaunchScreen.storyboard in Resources */,
+				AA9F84DA27278A4100DD3D1A /* Assets.xcassets in Resources */,
+				AA9F84D827278A3600DD3D1A /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		AA9F84C927278A3600DD3D1A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AA9F84D527278A3600DD3D1A /* IntroductionViewController.swift in Sources */,
+				AA9F84D127278A3600DD3D1A /* AppDelegate.swift in Sources */,
+				AA9F84E6272794B300DD3D1A /* QuestionViewController.swift in Sources */,
+				AA9F84ED27279B4100DD3D1A /* Question.swift in Sources */,
+				AA9F84E9272794C700DD3D1A /* ResultsViewController.swift in Sources */,
+				AA9F84D327278A3600DD3D1A /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		AA9F84D627278A3600DD3D1A /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AA9F84D727278A3600DD3D1A /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		AA9F84DB27278A4100DD3D1A /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AA9F84DC27278A4100DD3D1A /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		AA9F84DF27278A4100DD3D1A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		AA9F84E027278A4100DD3D1A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		AA9F84E227278A4100DD3D1A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = LaMottPersonalityQuiz/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.dylan.LaMottPersonalityQuiz;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		AA9F84E327278A4100DD3D1A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = LaMottPersonalityQuiz/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.dylan.LaMottPersonalityQuiz;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		AA9F84C827278A3600DD3D1A /* Build configuration list for PBXProject "LaMottPersonalityQuiz" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AA9F84DF27278A4100DD3D1A /* Debug */,
+				AA9F84E027278A4100DD3D1A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AA9F84E127278A4100DD3D1A /* Build configuration list for PBXNativeTarget "LaMottPersonalityQuiz" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AA9F84E227278A4100DD3D1A /* Debug */,
+				AA9F84E327278A4100DD3D1A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = AA9F84C527278A3600DD3D1A /* Project object */;
+}
